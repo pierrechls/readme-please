@@ -1,0 +1,29 @@
+{
+  "name": "readme-please",
+  "version": "1.0.0",
+  "description": "Simple CLI to easily generate a README file from a specific and customizable template",
+  "keywords": [
+    "readme",
+    "generator",
+    "template",
+    "terminal"
+  ],
+  "preferGlobal": "true",
+  "author": "Pierre Charles",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pierrechls/readme-please"
+  },
+  "bugs": {
+    "url": "https://github.com/pierrechls/readme-pleaseissues"
+  },
+  "homepage": "https://github.com/pierrechls/readme-please#readme",
+  "main": "lib/index.js",
+  "bin": {
+    "readme-please": "bin/readme-please.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "path": "^0.12.7"
+  }
+}
