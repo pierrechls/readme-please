@@ -1,4 +1,4 @@
-[![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](https://github.com/pierrechls/readme-please)
+[![version](https://img.shields.io/badge/version-1.1.0-green.svg?style=flat-square)](https://github.com/pierrechls/readme-please)
 
 # readme-please
 
@@ -19,7 +19,8 @@ $ npm i -g readme-please
 #### Have fun
 
 ```bash
-$ readme-please --help            # or -h (to see all possibles options)
+$ readme-please --help            # or -h (see all possibles options)
+$ readme-please --list            # or -l (list existing templates)
 $ readme-please --force           # or -f (overwrite the existing README file)
 $ readme-please --template [name] # or -t (generate from a specific template)
 ```
