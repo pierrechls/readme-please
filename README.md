@@ -2,9 +2,9 @@
 
 # readme-please
 
-![preview](https://raw.githubusercontent.com/pierrechls/readme-please/master/preview.png)
-
 > Simple CLI to easily generate a README file from a specific and customizable template
+
+![preview](https://raw.githubusercontent.com/pierrechls/readme-please/master/preview.gif)
 
 A rich and explicit README is really **important** to present the project and eventually explain how to use it. A README have to be **organized** and look **sexy** (with emoji is ~~better~~ cool). But, when you start your project, create a README file is a **boring** task. That's why I decided to create a command line to make this process **quick** and **easy**, generating a README file where you only have to complete it with the project informations.
 
