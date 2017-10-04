@@ -3,8 +3,8 @@ module.exports = {
   content: [
     '[![version](https://img.shields.io/badge/version-1.0.0-green.svg?style=flat-square)](<YOUR-REPO-LINK>)',
     '# <YOUR-REPO-NAME>',
-    '![preview](https://raw.githubusercontent.com/pierrechls/readme-please/master/preview.png)',
     '> Default description',
+    '![preview](https://raw.githubusercontent.com/pierrechls/readme-please/master/assets/preview.png)',
     'Default description **more** explicit. Do not write ~~bad~~ things. You can explain **why** you created this package.',
     '## :rocket: How to use it',
     '#### Clone the repo',
