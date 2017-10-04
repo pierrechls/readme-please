@@ -15,6 +15,7 @@ var pkg = require(path.join('../package'))
 program
   .version(pkg.version)
   .description('Simple CLI to easily generate a README file from a specific and customizable template')
+  .option('-l, --list', 'List existing templates')
   .option('-f, --force', 'Rewrite existing README')
   .option('-t, --template [name]', 'Choose a specific template', 'default')
   .parse(process.argv)
@@ -29,10 +30,12 @@ program.on('--help', function () {
 
 program.parse(process.argv)
 
-if (program.args.length > 0) return program.help()
-
+var list = program.list
 var force = program.force
 var template = program.template
 
+if (program.args.length > 0) return program.help()
+if (list && (force || template != 'default')) return program.help()
+
 var readmePlease = require(path.join('../lib'))
-readmePlease(force, template)
+readmePlease(list, force, template)
