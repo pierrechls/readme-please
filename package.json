@@ -1,6 +1,6 @@
 {
   "name": "readme-please",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Simple CLI to easily generate a README file from a specific and customizable template",
   "keywords": [
     "readme",
